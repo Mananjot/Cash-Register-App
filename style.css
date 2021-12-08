@@ -1,48 +1,72 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 
-body{
-    font-family: 'Rubik', sans-serif; 
+body {
+  font-family: "Rubik", sans-serif;
 }
 
-.container{
-    width:40%;
-    margin:auto;
-    text-align: center;
+.container {
+  width: 40%;
+  margin: auto;
+  text-align: center;
 }
 
-#main-heading{
-    text-align: center;
+#main-heading {
+  text-align: center;
 }
 
-#intro-msg{
-    
+input {
+  width: 60%;
+  padding: 5px;
+  margin: 5px auto;
 }
 
-input{
-    width: 60%;
-    padding: 5px;
-    margin: 5px auto;
+button {
+  margin: 5px;
+  padding: 5px;
+  cursor: pointer;
 }
 
-button{
-    margin: 5px;
-    padding: 5px;
-    cursor: pointer;
+table {
+  width: 100%;
+  margin: auto;
+  overflow: scroll;
 }
 
-table{
-    width: 100%;
-    margin:auto;
-    overflow: scroll;
-    /* table-layout: fixed; */
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
 }
 
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
+th,
+td {
+  padding: 5px;
+  min-width: max-content;
 }
 
-th, td{
-    padding: 5px;
-    min-width: max-content;
+footer a {
+  text-decoration: none;
+  color: black;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  width: max-content;
+  min-width: 140px;
+  font-size: 1.5rem;
+}
+
+footer {
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+}
+
+footer ul {
+  padding-inline-start: 0px;
+}
+
+.list-inline li {
+  display: inline;
 }
