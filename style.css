@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+body{
+    font-family: 'Rubik', sans-serif; 
+}
+
+.container{
+    width:40%;
+    margin:auto;
+    text-align: center;
+}
+
+#main-heading{
+    text-align: center;
+}
+
+#intro-msg{
+    
+}
+
+input{
+    width: 60%;
+    padding: 5px;
+    margin: 5px auto;
+}
+
+button{
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+table{
+    width: 100%;
+    margin:auto;
+    overflow: scroll;
+    /* table-layout: fixed; */
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td{
+    padding: 5px;
+    min-width: max-content;
+}

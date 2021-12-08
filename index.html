@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Cash Register</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="main-heading"> Cash Register </h1>
+        <p id="intro-msg"> Enter the Bill Amount and Amount given by the customer to know the no. of notes of particular
+            denomiation to be returned </p>
+        <div class="container-input">
+            <input type="number" id="input-bill-amt" placeholder="Bill Amount">
+        </div>
+        <!-- <button id="btn-next"> Next </button> -->
+        <div class="container-input">
+        <input type="number" id="input-given-amt" placeholder="Given Amount">
+        </div>
+        <button id="btn-compute"> Compute </button>
+        <p id="error-msg"></p>
+        <table>
+            <caption> Cash Register </caption>
+            <tr>
+                <th> Notes </th>
+                <td class="denomination"> 1 </td>
+                <td class="denomination"> 5 </td>
+                <td class="denomination"> 10 </td>
+                <td class="denomination"> 20 </td>
+                <td class="denomination"> 50 </td>
+                <td class="denomination"> 100 </td>
+                <td class="denomination"> 200 </td>
+                <td class="denomination"> 500 </td>
+                <td class="denomination"> 2000 </td>
+            </tr>
+            <tr>
+                <th> No. of Notes </th>
+                <td class="denomination-count"></td>
+                <td class="denomination-count"></td>
+                <td class="denomination-count"></td>
+                <td class="denomination-count"></td>
+                <td class="denomination-count"> </td>
+                <td class="denomination-count"></td>
+                <td class="denomination-count"></td>
+                <td class="denomination-count"></td>
+                <td class="denomination-count"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+<script src="./app.js"></script>
+
+</html>
